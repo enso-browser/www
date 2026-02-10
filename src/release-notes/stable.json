@@ -42,7 +42,7 @@
         "issue": 41
       },
       {
-        "description": "Changed to the correct branding for Zen Home",
+        "description": "Changed to the correct branding for Enso Home",
         "issue": 50
       }
     ],
@@ -59,7 +59,7 @@
         "issue": 54
       },
       {
-        "description": "Fixed Zen's compact view mode",
+        "description": "Fixed Enso's compact view mode",
         "issue": 45
       },
       {
@@ -112,7 +112,7 @@
         "issue": 62
       },
       {
-        "description": "Fixed Zen not being able to execute on some Linux distributions",
+        "description": "Fixed Ensonot being able to execute on some Linux distributions",
         "issue": 36
       },
       {
@@ -169,7 +169,7 @@
         "issue": 64
       },
       {
-        "description": "Disabled Zen Workspaces when private browsing is enabled"
+        "description": "Disabled Enso Workspaces when private browsing is enabled"
       },
       {
         "description": "Fixed web view padding when opening a hidden popup",
@@ -254,7 +254,7 @@
         "issue": 89
       }
     ],
-    "breakingChanges": ["Changed the ID for flatpak to io.github.zen_browser.zen"]
+    "breakingChanges": ["Changed the ID for flatpak to io.github.enso_browser.enso"]
   },
   {
     "version": "1.0.0-a.11",
@@ -300,7 +300,7 @@
         "issue": 124
       }
     ],
-    "breakingChanges": ["Changed the ID for AppImage to io.github.zen_browser.zen"]
+    "breakingChanges": ["Changed the ID for AppImage to io.github.enso_browser.enso"]
   },
   {
     "version": "1.0.0-a.12",
@@ -425,7 +425,7 @@
         "issue": 216
       },
       {
-        "description": "Getting 0xc0000142 error while trying to open zen.exe",
+        "description": "Getting 0xc0000142 error while trying to open enso.exe",
         "issue": 209
       },
       {
@@ -442,7 +442,7 @@
       "Added support for the latest stable version of Firefox (129.0.1)",
       "Added security warning when changing the language",
       "Locked preferences for Mozilla telemetry and experiments",
-      "Refactored parts of the Zen interface theme",
+      "Refactored parts of the Ensointerface theme",
       "Disabled Reader Mode's parse-on-load function",
       "Updated network and buffer preferences",
       "Improved font rendering",
@@ -469,7 +469,7 @@
         "issue": 237
       },
       {
-        "description": "Zen Browser is damaged and can't be opened on macOS",
+        "description": "Enso Browser is damaged and can't be opened on macOS",
         "issue": 53
       },
       {
@@ -496,7 +496,7 @@
     "extra": "This release is the twenty-fourth alpha release of the 1.0.0-alpha series.\n\nThis release brings the long-awaited expand on hover feature, as well as some bug fixes and improvements to the theme store and documentation.",
     "features": [
       "Added a frequently asked questions page to the documentation",
-      "Added platform specific preferences to Zen mods",
+      "Added platform specific preferences to Ensomods",
       "Added expand-on-hover feature for the tab sidebar",
       "Improved scrollbar appearance on Windows",
       "Improved URL bar background color"
@@ -544,7 +544,7 @@
     "extra": "This release is the twenty-eighth alpha release of the 1.0.0-alpha series.",
     "features": [
       "Enabled JPEG XL",
-      "Changed Zen Core Components license to CC BY-SA",
+      "Changed Enso Core Components license to CC BY-SA",
       "Added support for color mods in theme creation",
       "Fixed sidebar shortcuts",
       "Started work on browser translations"
@@ -658,7 +658,7 @@
     "features": [
       "Added option to restore legacy toolbar interface",
       "Added profile-guided optimization (Windows)",
-      "Added experimental Zen Labs settings",
+      "Added experimental Enso Labs settings",
       "Changed interface colors",
       "Disabled efficiency-mode by default (Windows)",
       "Enabled GPU-accelerated web rendering by default",
@@ -668,7 +668,7 @@
     ],
     "fixes": [
       {
-        "description": "Zen Browser is damaged and can't be opened on macOS",
+        "description": "Enso Browser is damaged and can't be opened on macOS",
         "issue": 53
       },
       {
@@ -719,7 +719,7 @@
         "issue": 972
       },
       {
-        "description": "Zen Browser.app is damaged and can\u2019t be opened on macOS",
+        "description": "Enso Browser.app is damaged and can\u2019t be opened on macOS",
         "issue": 1245
       },
       {
@@ -732,10 +732,10 @@
     "version": "1.0.1-a",
     "date": "15/09/2024",
     "workflowId": 10911842349,
-    "extra": "This version marks a more stable alpha release.\n\nThis release brings a few improvements to the UI and some important quality of life features for workspaces, such as separate pinned tabs, custom icons and assigned tab containers!\n\nWe've also added a new AppImage installer for Linux users and started signing our Windows builds with a verified digital signature, making Windows Defender and other antivirus software less annoying!\n\nAlso, we've made the browser's layout more stable for mods, improved overall UX and added an a better theme support (Now called Zen Mods)!",
+    "extra": "This version marks a more stable alpha release.\n\nThis release brings a few improvements to the UI and some important quality of life features for workspaces, such as separate pinned tabs, custom icons and assigned tab containers!\n\nWe've also added a new AppImage installer for Linux users and started signing our Windows builds with a verified digital signature, making Windows Defender and other antivirus software less annoying!\n\nAlso, we've made the browser's layout more stable for mods, improved overall UX and added an a better theme support (Now called Enso Mods)!",
     "features": [
       "Added verified digital signature to Windows builds",
-      "Added Zen to Homebrew Cask repository",
+      "Added Ensoto Homebrew Cask repository",
       "Enabled private search suggestions by default",
       "Improved Theme Store settings page",
       "Added Night and Colorful mods",
@@ -748,7 +748,7 @@
       "Allow binding tab containers to workspaces",
       "Added new AppImage installer",
       "Improved bookmarks sidebar interface",
-      "Added compatibility for legacy Zen Theme preferences"
+      "Added compatibility for legacy Enso Theme preferences"
     ],
     "fixes": [
       {
@@ -828,7 +828,7 @@
     "version": "1.0.1-a.3",
     "date": "22/09/2024",
     "workflowId": 10984599633,
-    "extra": "We are thrilled to announce that this release marks a significant leap forward for Zen Browser.\n\nSince the last version (1.0.1-a.2), we've implemented numerous improvements and addressed key bug fixes, all aimed at enhancing your browsing experience.\n\nWe've made significant changes to the UI, including a new compact mode design, improved tab management, and a more intuitive user interface. We've also added new features, such as the ability to customize the tab bar and a new compact mode design.\n\nWe hope you enjoy this release and look forward to your feedback!",
+    "extra": "We are thrilled to announce that this release marks a significant leap forward for Enso Browser.\n\nSince the last version (1.0.1-a.2), we've implemented numerous improvements and addressed key bug fixes, all aimed at enhancing your browsing experience.\n\nWe've made significant changes to the UI, including a new compact mode design, improved tab management, and a more intuitive user interface. We've also added new features, such as the ability to customize the tab bar and a new compact mode design.\n\nWe hope you enjoy this release and look forward to your feedback!",
     "features": [
       "Compact mode now allows to only hide the toolbar",
       "Added support for customizing the tab bar",
@@ -1010,7 +1010,7 @@
     "version": "1.0.1-a.8",
     "date": "10/10/2024",
     "workflowId": 11279059812,
-    "extra": "This release brings Zen to Firefox v131.0.2, which patches a significant security vulnerability.\n\nThis update improves the split view and pinned tabs features.\nWe have also released Zen Twilight; automated unstable builds where you can test out the latest features!",
+    "extra": "This release brings Ensoto Firefox v131.0.2, which patches a significant security vulnerability.\n\nThis update improves the split view and pinned tabs features.\nWe have also released Enso Twilight; automated unstable builds where you can test out the latest features!",
     "features": [
       "Updated to the latest stable version of Firefox (131.0.2)",
       "Added floating compact mode",
@@ -1030,7 +1030,7 @@
         "description": "Fixed buffering issues on YouTube"
       },
       {
-        "description": "Fixed Zen Mod settings page crashing when a mod ceases to exist"
+        "description": "Fixed Enso Mod settings page crashing when a mod ceases to exist"
       },
       {
         "description": "Fixed extension menu breaking compact mode when held open",
@@ -1054,7 +1054,7 @@
     "version": "1.0.1-a.9",
     "date": "14/10/2024",
     "workflowId": 11333793682,
-    "extra": "This update brings further refinements to Zen Browser, focusing on stability improvements and new features for session management.\n\nWe've also enhanced pinned tab handling and workspaces to improve the user experience. Thanks everyone!",
+    "extra": "This update brings further refinements to Enso Browser, focusing on stability improvements and new features for session management.\n\nWe've also enhanced pinned tab handling and workspaces to improve the user experience. Thanks everyone!",
     "features": [
       "Updated to the latest stable version of Firefox (131.0.3)",
       "Improved session storage of pinned tabs, now storing the triggering principal for more accurate state restoration",
@@ -1102,7 +1102,7 @@
         "description": "Applied patches to fix mfsa2024-53 security issue"
       },
       {
-        "description": "Major issue with zen sidebar disappearing and not re-appearing on restart",
+        "description": "Major issue with enso sidebar disappearing and not re-appearing on restart",
         "issue": 1979
       }
     ]
@@ -1154,7 +1154,7 @@
         "issue": 2033
       },
       {
-        "description": "Fixed About Zen showing incorrect Firefox version",
+        "description": "Fixed About Ensoshowing incorrect Firefox version",
         "issue": 2150
       },
       {
@@ -1181,7 +1181,7 @@
       "Improved light theme",
       "Changed split view button icon",
       "Added reordering mode to workspaces",
-      "Added button to disable all active Zen Mods",
+      "Added button to disable all active Enso Mods",
       "Workspace icon picker now supports all emojis by default"
     ]
   },
@@ -1247,7 +1247,7 @@
     ],
     "breakingChanges": ["Removed Show Expand Button option from settings"],
     "themeChanges": [
-      "The variable '--zen-main-browser-background' will now contain the generated gradient",
+      "The variable '--enso-main-browser-background' will now contain the generated gradient",
       "Added the 'unread' attribute for background tabs that haven't been accessed yet"
     ]
   },
@@ -1278,7 +1278,7 @@
     "version": "1.0.1-a.15",
     "date": "31/10/2024",
     "workflowId": 11600705444,
-    "extra": "This release introduces Zen Glance, a new convenient way to preview links!\n\nZen Glance allows you to open a link preview in a small window, without leaving the current page. This feature is perfect for quickly checking links without losing your place.\n\nWe've also updated to the latest stable version of Firefox (what a mess, everything got broken!), and we can already start to see some early stages of tab groups!\n\nStart using Zen Glance today my 'ctrl+click' or 'alt+click' on macos on any link and experience this new way of browsing!",
+    "extra": "This release introduces Enso Glance, a new convenient way to preview links!\n\nEnso Glance allows you to open a link preview in a small window, without leaving the current page. This feature is perfect for quickly checking links without losing your place.\n\nWe've also updated to the latest stable version of Firefox (what a mess, everything got broken!), and we can already start to see some early stages of tab groups!\n\nStart using Enso Glance today my 'ctrl+click' or 'alt+click' on macos on any link and experience this new way of browsing!",
     "fixes": [
       {
         "description": "Fixed gradient theme not applying to sidebar using expand on hover",
@@ -1319,7 +1319,7 @@
     ],
     "breakingChanges": ["Changed the default layout of the customizable UI buttons"],
     "features": [
-      "Added Zen Glance!",
+      "Added Enso Glance!",
       "Updated to the latest stable version of Firefox (132.0)",
       "Enabled Captive Portal Detection by default",
       "Added polyhedral optimizations to macOS builds",
@@ -1384,11 +1384,11 @@
     "version": "1.0.1-a.18",
     "date": "09/11/2024",
     "workflowId": 11758612771,
-    "extra": "This release brings some quality of life improvements and new features to Zen Browser! First thing you would notice, pinned tabs look like normal tabs now. Why? Because we added 'essentials'.\n\nEssentials are a new way to manage your tabs, workspaces and pinned tabs. You can now have pinned tabs your workspace, and essentials will be the only tabs that are not workspace specific.\n\nWe've also started to experiment with new layouts and designs for the browser, and we've added a more native look to the browser!",
+    "extra": "This release brings some quality of life improvements and new features to Enso Browser! First thing you would notice, pinned tabs look like normal tabs now. Why? Because we added 'essentials'.\n\nEssentials are a new way to manage your tabs, workspaces and pinned tabs. You can now have pinned tabs your workspace, and essentials will be the only tabs that are not workspace specific.\n\nWe've also started to experiment with new layouts and designs for the browser, and we've added a more native look to the browser!",
     "features": [
       "Color picker colors will now appear where the mouse has been clicked",
       "Added a workspace indicator that will show the workspace name and icon",
-      "Created the first version of Zen Essentials!",
+      "Created the first version of Enso Essentials!",
       "Added support for forward/backward mouse buttons for switching workspaces",
       "Pinned tabs and essentials will stay active in all windows",
       "For macos, the browser will now have a transparency/blur factor, based on the theme's contrast. Giving a more native look to the browser",
@@ -1493,8 +1493,8 @@
       "Disabled experimental webview border radius for macos users until we fix the font display issues"
     ],
     "themeChanges": [
-      "Compact mode will now use '--zen-main-browser-background-toolbar' as the background color",
-      "Browser background isn't defined on zen-main-app-wrapper element anymore but on the #browser element",
+      "Compact mode will now use '--enso-main-browser-background-toolbar' as the background color",
+      "Browser background isn't defined on enso-main-app-wrapper element anymore but on the #browser element",
       "Added a new variable for the translucency of the browser in macos"
     ]
   },
@@ -1553,7 +1553,7 @@
     "version": "1.0.2-b.0",
     "date": "10/12/2024",
     "workflowId": 12246343549,
-    "extra": "This release introduces a new stage for Zen Browser, the beta stage! This means that we are getting closer to a stable release, and we are now focusing on fixing bugs and improving the overall experience.\n\nWe've made some significant changes to the UI, including a new layout for the browser called single toolbar and much more!",
+    "extra": "This release introduces a new stage for Enso Browser, the beta stage! This means that we are getting closer to a stable release, and we are now focusing on fixing bugs and improving the overall experience.\n\nWe've made some significant changes to the UI, including a new layout for the browser called single toolbar and much more!",
     "fixes": [
       {
         "description": "Various fixes in version 20"
@@ -1610,7 +1610,7 @@
     ],
     "features": [
       "New branding and logos!",
-      "Updated zen glance animations for smoother transitions and adjust timing (Still in development)",
+      "Updated enso glance animations for smoother transitions and adjust timing (Still in development)",
       "Add reset to pinned URL button to pinned tabs",
       "Made the URL bar background more rounded",
       "Updated to Firefox 133.0",
@@ -1619,7 +1619,7 @@
       "Windows and linux ARM64 builds are now available on the github for testing!",
       "Hide container label when URL bar is narrow",
       "Macos ARM64 builds will now ship with PGO, performance increase!",
-      "Added different layouts for zen: single toolbar, multiple toolbars, and no toolbar",
+      "Added different layouts for enso: single toolbar, multiple toolbars, and no toolbar",
       "The URL bar will now be floating on the top of the page",
       "Added native mica support for Windows 11",
       "Added hiding window controls support",
@@ -1702,7 +1702,7 @@
         "description": "Fixed private mode indicator overflowing collapsed sidebar"
       },
       {
-        "description": "Hide label in zen-workspaces when sidebar is not expanded"
+        "description": "Hide label in enso-workspaces when sidebar is not expanded"
       },
       {
         "description": "Fixed clicking on the URLbar suggestions not performing any actions"
@@ -1722,7 +1722,7 @@
     "version": "1.0.2-b.3",
     "date": "19/12/2024",
     "workflowId": 12419745635,
-    "extra": "This release brings more bug fixing and overall stability while also including some small polishing features/details. Our goal during the beta phase is to get everything as stable and ready for our stable release!\n\nNote: We will be hosting a hall-of-fame event, where top 20 zen rices will be featured in the website!\n\nMerry Christmas everyone!",
+    "extra": "This release brings more bug fixing and overall stability while also including some small polishing features/details. Our goal during the beta phase is to get everything as stable and ready for our stable release!\n\nNote: We will be hosting a hall-of-fame event, where top 20 enso rices will be featured in the website!\n\nMerry Christmas everyone!",
     "fixes": [
       "Fixed workspaces not being initialized correctly when creating a fresh profile",
       "Fixed gradient generator not being correctly initialized on startup",
@@ -1756,7 +1756,7 @@
       "Added delays when hovering on the window buttons, making it a bit less error-prone",
       "Added experimental rounded corners for website (Disabled by default on macos)",
       "Added fallback cache-based website favicon in case we fail to fetch the website's favicon for essentials/pinned tabs",
-      "Added a more optimized version of zen hardening, there should be less performance issues now and less font-rendering issues",
+      "Added a more optimized version of enso hardening, there should be less performance issues now and less font-rendering issues",
       "Added a smoother scrolling experience by using msd physics and changing scroll values/offsets (Disabled in macos)",
       "Optimized workspace switching animations"
     ]
@@ -1765,7 +1765,7 @@
     "version": "1.0.2-b.4",
     "date": "22/12/2024",
     "workflowId": 12453824612,
-    "extra": "This release includes many more bug fixes and improvements to the browser. We've also added an <a href='https://github.com/zen-browser/desktop/tree/dev/docs/issue-metrics' target='_blank'>issue metrics</a> file too see how many issues we've fixed each month!",
+    "extra": "This release includes many more bug fixes and improvements to the browser. We've also added an <a href='https://github.com/enso-browser/desktop/tree/dev/docs/issue-metrics' target='_blank'>issue metrics</a> file too see how many issues we've fixed each month!",
     "fixes": [
       "Fixed fullscreen notice having a weird animation",
       "Fixed workspace indicator not hiding if the config is set to hide it",
@@ -1802,17 +1802,17 @@
     "features": [
       "Adjust mouse wheel delta multiplier for improved scrolling sensitivity",
       "Disable Normandy studies by default",
-      "Zen Mods will now not load if the browser is opened in safe mode",
+      "Enso Mods will now not load if the browser is opened in safe mode",
       "Removed permission buttons in the URL bar into an unified button, saving space (single toolbar layout)",
       "Added support for function keys in the range of F13-F24, also for num lock and scroll lock keys",
-      "Add experimental window controls preference to hide the window controls always (zen.view.experimental-no-window-controls)",
+      "Add experimental window controls preference to hide the window controls always (enso.view.experimental-no-window-controls)",
       "Fixed and improved PGO, LTO and clang plugins for all builds, improving performance"
     ],
     "breakingChanges": [
       "Due to a high amount of complaints, we've changed the 'Inspect Element' shortcut to 'Ctrl+Shift+L' (Windows/Linux) and 'Cmd+Opt+I' (macOS). This is done to prioritize the 'Copy current URL' shortcut",
       {
         "description": "Removed optimized builds for linux and windows",
-        "link": "https://github.com/zen-browser/desktop/wiki/Why-have-optimized-builds-been-removed%3F"
+        "link": "https://github.com/enso-browser/desktop/wiki/Why-have-optimized-builds-been-removed%3F"
       }
     ]
   },
@@ -1859,7 +1859,7 @@
         "description": "Fixed weird coloring for toggle inputs",
         "issue": 4047
       },
-      "Update application identifier for Zen Browser to align with new naming conventions (MacOS)",
+      "Update application identifier for Enso Browser to align with new naming conventions (MacOS)",
       "Fixed translations trying to be overridden on Windows builds",
       {
         "description": "Fixed web panels closing and immediately opening again when clicking on the toolbar button",
@@ -1905,10 +1905,10 @@
       },
       "Fixed moving pinned tabs into the essential tabs container breaking the UI",
       "Fixed compact mode not opening when hovering on the side when the window changes size",
-      "Improved security for Zen Mods, only allowing installs from the Zen Mods website",
+      "Improved security for Enso Mods, only allowing installs from the Enso Mods website",
       "Fixed the completely broken save bookmark dialog",
       "Fixed and improved the grain texture for workspace backgrounds (Thanks to @different55)",
-      "Fixed zen's app bundle ID giving an incorrect identifier",
+      "Fixed enso's app bundle ID giving an incorrect identifier",
       "Fixed issue related to changing workspace with the 4 / 5 mouse buttons and we now take into consideration natural scrolling",
       "Fixed some website dialogs overflowing the window",
       "Fixed moving around pins not saving their position after a restart",
@@ -1938,7 +1938,7 @@
       "Browser background now goes grayscale when unfocused",
       "Added support for Windows 11 setting 'Show accent color on window title bars and borders'",
       "Enabled experimental features for twilight builds",
-      "Improved design of native zen dialogs",
+      "Improved design of native enso dialogs",
       "Re-enabled the default password manager",
       "Improved on-boarding experience for new users",
       "Added support for searching for emojis on the workspace icon picker",
@@ -1950,14 +1950,14 @@
     ],
     "breakingChanges": [
       "Changed versioning scheme to match Firefox's Release Candidates",
-      "Removed option to disable workspaces. Workspaces are now a core feature of Zen, and it can be really easy to ignore them (they are hidden if you have just one workspace) if you don't want to use them. Most of Zen's functionality is built around workspaces, so we decided to make them a core feature. They were an option before because they were experimental."
+      "Removed option to disable workspaces. Workspaces are now a core feature of Enso, and it can be really easy to ignore them (they are hidden if you have just one workspace) if you don't want to use them. Most of Enso's functionality is built around workspaces, so we decided to make them a core feature. They were an option before because they were experimental."
     ],
     "workflowId": 12700507897,
     "date": "07/01/2025"
   },
   {
     "version": "1.7b",
-    "extra": "This is a small update, but it brings some nice improvements to the workspace and the overall experience.\n\n<strong><u>IMPORTANT FOR FLATPAK USERS</u>:</strong> The app id has changed, please see <a href='https://www.reddit.com/r/zen_browser/comments/1i2cspi/comment/m7di8z1/' target='_blank'>this post</a> for instructions on how to migrate",
+    "extra": "This is a small update, but it brings some nice improvements to the workspace and the overall experience.\n\n<strong><u>IMPORTANT FOR FLATPAK USERS</u>:</strong> The app id has changed, please see <a href='https://www.reddit.com/r/enso_browser/comments/1i2cspi/comment/m7di8z1/' target='_blank'>this post</a> for instructions on how to migrate",
     "fixes": [
       "Fixed wrong spacing when using right side tabs",
       {
@@ -1993,14 +1993,14 @@
     "breakingChanges": [
       "MacOS users default toolbar layout has the webpanels button removed",
       "Disabled smooth scroll on tabs by default (like it was in previous versions)",
-      "Changed flatpak id from 'io.github.zen_browser.zen' to 'app.zen_browser.zen'"
+      "Changed flatpak id from 'io.github.enso_browser.enso' to 'app.enso_browser.enso'"
     ],
     "workflowId": 12794695928,
     "date": "14/01/2025"
   },
   {
     "version": "1.7.1b",
-    "extra": "<u>We are back again with yet another stability update!</u>\n\nThis update focused on finally fixing the main issues people have with essentials/pinned tabs and improving the experience and UI.\n\nWe've improved the browser's overall UI and feel, added new optimized and *bouncy* animations, made some quality-of-life improvements, and are having a great time!\n\nOne thing to expect in future releases is the implementation of a new settings window, where all Zen-specific features can be easily customized and toggled.",
+    "extra": "<u>We are back again with yet another stability update!</u>\n\nThis update focused on finally fixing the main issues people have with essentials/pinned tabs and improving the experience and UI.\n\nWe've improved the browser's overall UI and feel, added new optimized and *bouncy* animations, made some quality-of-life improvements, and are having a great time!\n\nOne thing to expect in future releases is the implementation of a new settings window, where all Enso-specific features can be easily customized and toggled.",
     "fixes": [
       "Fixed essentials and pinned tabs not being correctly restored when using multiple windows",
       "Fixed bookmarks failing to correctly initialize when using multiple windows",
@@ -2030,7 +2030,7 @@
       "Tweaked values for windows to provide a more native feel"
     ],
     "breakingChanges": [
-      "Changed default setting for 'Essentials favicon in background' to false, These settings will be better handled once we have a customized settings page (toggle <strong>zen.theme.essentials-favicon-bg</strong> in <strong>about:config</strong> to change it back)",
+      "Changed default setting for 'Essentials favicon in background' to false, These settings will be better handled once we have a customized settings page (toggle <strong>enso.theme.essentials-favicon-bg</strong> in <strong>about:config</strong> to change it back)",
       "Changed the about:config 'close window with last tab' default value to false"
     ],
     "workflowId": 12858147265,
@@ -2045,7 +2045,7 @@
       "Fixed native fonts for windows and linux",
       "Fixed sidebar hiding icons when they could easily fit",
       "Fixed native rounded corners for each OS",
-      "Fixed an error when opening zen when having compact mode enabled",
+      "Fixed an error when opening enso when having compact mode enabled",
       "Fixed glance messing up with tabs after being closed",
       "Fixed workspaces not initializing when the button is missing from the toolbar"
     ],
@@ -2082,7 +2082,7 @@
       "Fixed visual inconsistency with split view confirmation popup"
     ],
     "features": [
-      "Macos users with single toolbar layout will now NOT have the three dots panel button. This is done to decreased used space. Alternatives can be using the macos native menu bar or disabling it with 'zen.view.mac.show-three-dot-menu' in about:config",
+      "Macos users with single toolbar layout will now NOT have the three dots panel button. This is done to decreased used space. Alternatives can be using the macos native menu bar or disabling it with 'enso.view.mac.show-three-dot-menu' in about:config",
       "MacOS builds are now in a single, unified DMG file",
       "Pinned tabs AND normal tabs will now scroll together in order to increase visibility",
       "Glance now has a more native feel to it",
@@ -2136,7 +2136,7 @@
     ],
     "features": [
       "Updated to firefox 135.0",
-      "NEW TABS HAVE BEEN REMOVED, instead we are opting for opening the URL bar and then pressing enter to open a new tab ('zen.urlbar.replace-newtab' to false in about:config to revert)",
+      "NEW TABS HAVE BEEN REMOVED, instead we are opting for opening the URL bar and then pressing enter to open a new tab ('enso.urlbar.replace-newtab' to false in about:config to revert)",
       "Added the ability to pinning or adding to essentials by simply dragging and dropping",
       "Add thin scrollbar style to vertical tabs for improved aesthetics",
       "Added support for having glance in multiple tabs!",
@@ -2178,7 +2178,7 @@
   },
   {
     "version": "1.8b",
-    "extra": "Huge update filled with improvements and QoL features.\n\nP.S. Check out this cool site! https://doeszenhavedrmyet.com/",
+    "extra": "Huge update filled with improvements and QoL features.\n\nP.S. Check out this cool site! https://doesensohavedrmyet.com/",
     "fixes": [
       "Fixed weird text generation when rendering PDFs/Google Docs on some websites, without the need to disable hardware acceleration",
       "Fixed glance opening on the wrong location when expanding while opened on a normal tab",
@@ -2206,7 +2206,7 @@
       "\ud83d\udd25 Added support for acrylic backgrounds for windows 11 with mica support",
       "\ud83d\udd25 Added a better gradient generator that follows color theory",
       "\ud83d\udd25 Added support renaming pinned tabs",
-      "\ud83d\udd25 Added support for a state-less empty tab (only enabled if 'zen.urlbar.replace-newtab' is enabled)",
+      "\ud83d\udd25 Added support for a state-less empty tab (only enabled if 'enso.urlbar.replace-newtab' is enabled)",
       "\ud83d\udd25 New, better on boarding experience",
       "Pinned tabs will now have an 'indicator' to reset back to the original URL",
       "Windows users will now be able to watch DRM content (experimental wmfcdm encrypted media, off by default)",
@@ -2216,14 +2216,14 @@
       "Added a timer setting that states how much the newtab URL bar should wait before clearing it's contents (default is 45 seconds)",
       "Faster initialization of the UI and better initial loading experience",
       "Increased font size for macos users",
-      "MacOS users will now have zen display as 'Zen' instead of 'Zen Browser' in the native top bar",
+      "MacOS users will now have enso display as 'Enso' instead of 'Enso Browser' in the native top bar",
       "Removed 'status alert' green dot from tabs",
       "Added improved and bouncier toast notifications",
       "URL bar is now fully floatable, always at the center of the screen and with better looks",
-      "Added an option to completely ignore hovering over the compact mode sidebar ('zen.view.compact.show-sidebar-and-toolbar-on-hover' in about:config)",
+      "Added an option to completely ignore hovering over the compact mode sidebar ('enso.view.compact.show-sidebar-and-toolbar-on-hover' in about:config)",
       "Improved shadows, borders and corners in common UI elements",
       "Compact mode now also gets texture if any is set",
-      "MacOS window buttons are now mono colored (zen.widget.mac.mono-window-controls in about:config)",
+      "MacOS window buttons are now mono colored (enso.widget.mac.mono-window-controls in about:config)",
       "Add support for additional languages: Welsh, Estonian, Persian, Finnish, Hebrew, and Icelandic",
       "Swiping between workspaces now has a force feedback and a maximum limit",
       "Double clicking on an essential now resets to the original URL",
@@ -2267,7 +2267,7 @@
   },
   {
     "version": "1.9b",
-    "extra": "Another nice update for Zen! This time, we've added a new feature that allows you to drag-and-drop tabs into the browser to split them!",
+    "extra": "Another nice update for Enso! This time, we've added a new feature that allows you to drag-and-drop tabs into the browser to split them!",
     "fixes": [
       "Fixed pinned tabs being subject to appearing on the essentials container",
       "Fixed opening bookmarks on empty tab pages",
@@ -2290,10 +2290,10 @@
       "Updated to Firefox 136.0",
       "Added support for a drag-and-drop tab split feature that also groups tabs in a nice UI!",
       "Implemented a more complete JPEG XL decoding and OS support, allowing things such as animated images and more",
-      "Allow having full URL without https in sidebar (zen.urlbar.show-domain-only-in-sidebar)",
-      "Add preference to hide one-off search buttons (off by default, zen.urlbar.hide-one-offs)",
+      "Allow having full URL without https in sidebar (enso.urlbar.show-domain-only-in-sidebar)",
+      "Add preference to hide one-off search buttons (off by default, enso.urlbar.hide-one-offs)",
       "Added martial arts emoji to the default emoji set",
-      "MacOS users can now control what window material they have (zen.widget.macos.window-material, 1 to 7, default is 2)",
+      "MacOS users can now control what window material they have (enso.widget.macos.window-material, 1 to 7, default is 2)",
       "Added support to drag-and-drop tabs from other windows while in compact mode",
       "Small changes to padding around the website and URL bar",
       "Favicons should render with better corners now",
@@ -2324,7 +2324,7 @@
   },
   {
     "version": "1.10b",
-    "extra": "This small but mighty update includes some exciting new features and improvements to Zen, such as passkey support for MacOS, and a media player controller that's fully integrated with Picture-in-Picture mode.",
+    "extra": "This small but mighty update includes some exciting new features and improvements to Enso, such as passkey support for MacOS, and a media player controller that's fully integrated with Picture-in-Picture mode.",
     "fixes": [
       "Glance should no longer close if 'onbeforeunload' is triggered",
       "Fixed splitting more than 3 tabs by dragging them to the web view",
@@ -2399,7 +2399,7 @@
         "description": "Fixed huge performance degradation and high CPU usage when using extensions with the 'tab access' permission",
         "issue": 7057
       },
-      "Fixed windows showing Mozilla as Zen's vendor",
+      "Fixed windows showing Mozilla as Enso's vendor",
       {
         "description": "Fixed opening the certificate manager from the settings",
         "issue": 7083
@@ -2432,7 +2432,7 @@
   },
   {
     "version": "1.11.1b",
-    "extra": "This small update brings some nice fixes and stability improvements to Zen",
+    "extra": "This small update brings some nice fixes and stability improvements to Enso",
     "fixes": [
       "Fixed Glance not becoming it's own tab when expanding",
       "Fixed custom colors not persisting across sessions",
@@ -2443,7 +2443,7 @@
   },
   {
     "version": "1.11.2b",
-    "extra": "Another stability update for Zen, while we prepare some cool new features for the future! Clue: it starts with an 'F'",
+    "extra": "Another stability update for Enso, while we prepare some cool new features for the future! Clue: it starts with an 'F'",
     "fixes": [
       {
         "description": "Fixed the URL bar showing a transparent background after clicking 'Ctrl+T' in a fullscreen video",
@@ -2463,7 +2463,7 @@
     ],
     "features": [
       "Updated to Firefox 137.0.1",
-      "Added support for Linux transparency under the `zen.widget.linux.transparency` preference",
+      "Added support for Linux transparency under the `enso.widget.linux.transparency` preference",
       "Added support for drag-and-drop essentials to split 2 tabs together; when pinning a non-pinned tab with a pinned tab, the pinned tab will be duplicated instead of being added into the split view group"
     ],
     "workflowId": 14363153438,
@@ -2471,7 +2471,7 @@
   },
   {
     "version": "1.11.3b",
-    "extra": "We are back with some nice QoL improvements and bug fixes. We decided that the release of Firefox 138 will be the defining moment for Zen, allowing stable enough groups for us to release tab folders! We are also working on something called 'Zen Library'!",
+    "extra": "We are back with some nice QoL improvements and bug fixes. We decided that the release of Firefox 138 will be the defining moment for Enso, allowing stable enough groups for us to release tab folders! We are also working on something called 'Enso Library'!",
     "fixes": [
       "Fixed Glance occasionally acting weird when cycling tabs with the keyboard",
       "Fixed various animations and generic issues in compact mode",
@@ -2485,10 +2485,10 @@
       "Blurring the input will now fully un-select the text",
       "Windows binaries are now correctly signed and *should* not be flagged by any antivirus",
       "New media control state for sites using WebRTC, like Discord and Google Meet that allows you to mute/unmute the camera and mic",
-      "Added better support for `zen.theme.content-element-separation` being 0 in 'about:config' for different Zen features"
+      "Added better support for `enso.theme.content-element-separation` being 0 in 'about:config' for different Ensofeatures"
     ],
     "themes": [
-      "Added the CSS attribute `-zen-window-transform-origin` for Chrome style sheets to allow for better positioning of the window when animating"
+      "Added the CSS attribute `-enso-window-transform-origin` for Chrome style sheets to allow for better positioning of the window when animating"
     ],
     "workflowId": 14434223474,
     "date": "14/04/2025"
@@ -2560,7 +2560,7 @@
   },
   {
     "version": "1.12b",
-    "extra": "A nice update that brings some cool new features and fixes!\n\nWe are also excited to announce that we've joined <a href=\"https://floss.social/@zenbrowser\">floss.social</a>!\n\nIn response to recent privacy concerns, we've significantly strengthened Zen's privacy measures. Previously, we only disabled telemetry, but some minimal pings were still being sent. Now, Firefox telemetry has been completely stripped out from the core.\n\nAdditionally, onboarding pages and initial Essentials favicons are now locally bundled and our website no longer relies on any external services, CDNs, nor Cloudflare services. Initial Essentials selected on startup will only be loaded when the tab is clicked on, so connections won't be established until you explicitly enter the tab. We also changed our onboarding Essentials options to more privacy and productivity focused sites.\n\nOnly critical security updates and other non-telemetry-related services remain. As a result, the number of external connections has dropped from 82 to around 20-10 \u2014 factoring in that Zen's site is loaded twice (for the welcome page and privacy policy).\n\nPsst. With the release of Firefox 138, folders are just around the corner!",
+    "extra": "A nice update that brings some cool new features and fixes!\n\nWe are also excited to announce that we've joined <a href=\"https://floss.social/@ensobrowser\">floss.social</a>!\n\nIn response to recent privacy concerns, we've significantly strengthened Enso's privacy measures. Previously, we only disabled telemetry, but some minimal pings were still being sent. Now, Firefox telemetry has been completely stripped out from the core.\n\nAdditionally, onboarding pages and initial Essentials favicons are now locally bundled and our website no longer relies on any external services, CDNs, nor Cloudflare services. Initial Essentials selected on startup will only be loaded when the tab is clicked on, so connections won't be established until you explicitly enter the tab. We also changed our onboarding Essentials options to more privacy and productivity focused sites.\n\nOnly critical security updates and other non-telemetry-related services remain. As a result, the number of external connections has dropped from 82 to around 20-10 \u2014 factoring in that Enso's site is loaded twice (for the welcome page and privacy policy).\n\nPsst. With the release of Firefox 138, folders are just around the corner!",
     "fixes": [
       "Fixed a crash when no loaded tab is present on the 'Ctrl+Tab' menu",
       {
@@ -2674,7 +2674,7 @@
     ],
     "features": [
       "Updated to Firefox 138.0.3",
-      "For MacOS users, dragging tabs and changing the texture for the workspace's background now provides haptic feedback (zen.haptic-feedback.enabled)",
+      "For MacOS users, dragging tabs and changing the texture for the workspace's background now provides haptic feedback (enso.haptic-feedback.enabled)",
       "The 'copy current url' toast now displays a share icon (only on Windows and MacOS)",
       "The URL bar can now search through renamed pinned tabs"
     ],
@@ -2761,7 +2761,7 @@
       "Automatic updates for mods.",
       "Automatic tab unloader now uses Firefox's default tab discarding feature, which is based on time and memory usage, instead of the previous time-only method.",
       "Improved performance for rendering rounded corners in the webview.",
-      "Enabled the browser to prioritize more important processes when Zen is under memory pressure on macOS.",
+      "Enabled the browser to prioritize more important processes when Ensois under memory pressure on macOS.",
       "The context menu item 'Search text on search engine' now opens Glance instead of a new tab."
     ],
     "workflowId": 15356890243,
@@ -2905,7 +2905,7 @@
     "fixes": [
       "Image caching and scroll optimization issues.",
       "A bug where adding or removing colors in the color picker would make the UI white.",
-      "On Linux, Zen uses less memory and no longer requires a forced restart after an update has been applied by a package manager.",
+      "On Linux, Ensouses less memory and no longer requires a forced restart after an update has been applied by a package manager.",
       "'Copy calculation' in the URL bar not working."
     ],
     "features": [
@@ -2974,7 +2974,7 @@
   },
   {
     "version": "1.15b",
-    "extra": "You asked, we delivered: Folders have arrived in Zen! Organise your browsing the way you want. Create a folder from the sidebar with the plus (+) button, give it a name, then drag and drop tabs inside. Right\u2013click a folder to rename or delete it, and rearrange them anytime to keep projects or saved links in order. Folders have been one of the most requested features since Zen\u2019s launch, and they\u2019re finally here.\n\nIf you wan't us to keep doing cool things like these, please consider <a href='https://zen-browser.app/donate'>donating</a>!",
+    "extra": "You asked, we delivered: Folders have arrived in Enso! Organise your browsing the way you want. Create a folder from the sidebar with the plus (+) button, give it a name, then drag and drop tabs inside. Right\u2013click a folder to rename or delete it, and rearrange them anytime to keep projects or saved links in order. Folders have been one of the most requested features since Enso\u2019s launch, and they\u2019re finally here.\n\nIf you wan't us to keep doing cool things like these, please consider <a href='https://enso-browser.app/donate'>donating</a>!",
     "fixes": [
       "Resolved compact mode twitching issue when hovering the URL bar.",
       "Pinned tab titles not showing on the URL bar search results.",
@@ -2984,7 +2984,7 @@
       "Folders!",
       "Updated to Firefox 142.0",
       "Implemented monochromatic icons for spaces, folders, etc.",
-      "Added a small animation when updating Zen."
+      "Added a small animation when updating Enso."
     ],
     "changes": [
       "Third-party domains now open in their own tabs when opened on pinned and essential tabs.",
@@ -3156,7 +3156,7 @@
     ],
     "features": [
       "Added support for an 'unload space' context menu item to unload all tabs in a space.",
-      "Added an 'about:config' to limit the number of essentials (zen.tabs.essentials.max) and to prevent compact mode from hiding the borders in fullscreen (zen.view.borderless-fullscreen)."
+      "Added an 'about:config' to limit the number of essentials (enso.tabs.essentials.max) and to prevent compact mode from hiding the borders in fullscreen (enso.view.borderless-fullscreen)."
     ],
     "workflowId": 18345238906,
     "image": false,
@@ -3164,14 +3164,14 @@
   },
   {
     "version": "1.17b",
-    "extra": "Note that if you used to like glance on the left side, you can download this <a href=\"https://zen-browser.app/mods/20e8cc78-3dac-4db0-81a4-814672fb50af/\">mod</a> to restore that functionality!",
+    "extra": "Note that if you used to like glance on the left side, you can download this <a href=\"https://enso-browser.app/mods/20e8cc78-3dac-4db0-81a4-814672fb50af/\">mod</a> to restore that functionality!",
     "security": "https://www.mozilla.org/en-US/security/advisories/mfsa2025-81/",
     "fixes": [
       "Fixed the URL bar not opening in fullscreen mode.",
       "Fixed performance for MacOS users when using transparency on the browser window.",
       "Other fixes with compact mode on double toolbar mode.",
       {
-        "description": "Fixed issues with 'Firefox Multiaccount Containers' extension freezing Zen.",
+        "description": "Fixed issues with 'Firefox Multiaccount Containers' extension freezing Enso.",
         "issue": 10666
       },
       "Fixed slow split view switching and scroll positions not being remembered.",
@@ -3183,7 +3183,7 @@
       "Added toolbar button to quickly toggle compact mode.",
       "Improved Glance animations to make it feel like the element is being lifted off the page.",
       "Added a URL bar button to quickly copy the current page URL.",
-      "Zen will now start using the new MacOS Tahoe look and feel.",
+      "Enso will now start using the new MacOS Tahoe look and feel.",
       "The operating system accent color will now be used instead of the default orange color when there's no browser theme applied."
     ],
     "changes": [
@@ -3260,7 +3260,7 @@
     "extra": "",
     "fixes": ["Stability and performance improvements, specially on glance"],
     "features": [
-      "Advanced preferences 'zen.urlbar.single-toolbar-show-copy-url' and 'zen.urlbar.show-pip-button' has been added to control the visibility of the 'Copy URL' and 'Picture-in-Picture' buttons in the URL bar.",
+      "Advanced preferences 'enso.urlbar.single-toolbar-show-copy-url' and 'enso.urlbar.show-pip-button' has been added to control the visibility of the 'Copy URL' and 'Picture-in-Picture' buttons in the URL bar.",
       "The site control center is now opened on click instead of on mouse down so the link can be dragged",
       "If a site is bookmarked, the control center will now show a filled icon instead of an empty one."
     ],
@@ -3302,7 +3302,7 @@
       "Added the options to make Ctrl+Tab cycling to keep within essentials/regular tabs only, and another option with the same behavior but for pending tabs",
       "With the new Open links from apps next to your active tab setting, you can have links from other applications open next to your active tab instead of at the end of the tab strip.",
       "Enhanced Bounce Tracking Protection's stateless mode is now enabled by default in ETP Strict, blocking more advanced tracking techniques based on redirection",
-      "For most Windows users, the existing desktop shortcut for launching Zen has been replaced with the desktop launcher, a small program that will launch Zen if it is installed"
+      "For most Windows users, the existing desktop shortcut for launching Ensohas been replaced with the desktop launcher, a small program that will launch Ensoif it is installed"
     ],
     "changed": [
       "Local translation models are now compressed with Zstandard, reducing download sizes and on-device storage consumption."
@@ -3327,7 +3327,7 @@
       "Tabs separator will always show if an unpinned tab is present"
     ],
     "knownIssues": [
-      "Double-click to open a new tab is currently broken on windows, as a workaround the preference 'zen.view.draggable-sidebar' has been added to disable the sidebar dragging feature and make double-click work again"
+      "Double-click to open a new tab is currently broken on windows, as a workaround the preference 'enso.view.draggable-sidebar' has been added to disable the sidebar dragging feature and make double-click work again"
     ],
     "workflowId": 19511885561,
     "image": false,
@@ -3341,7 +3341,7 @@
       "Fixed glance being activated when alt+selecting a link"
     ],
     "features": [
-      "Added an update success notification after updating to a new version. (zen.updates.show-update-notification in about:config)"
+      "Added an update success notification after updating to a new version. (enso.updates.show-update-notification in about:config)"
     ],
     "workflowId": 19633693139,
     "image": false,
@@ -3393,8 +3393,8 @@
     "features": [
       "Updated to Firefox 146.0",
       "You can now choose monochrome themes and customize the color algorithm on the theme picker",
-      "Zen now natively supports fractional scaled displays on Linux (Wayland), making rendering more effective.",
-      "MacOS users now have a dedicated GPU process by default. This includes WebGPU, WebGL, and Zen's own WebRender. With this feature enabled, fatal errors in graphics code will no longer crash the browser, and will instead transparently restart the GPU process."
+      "Enso now natively supports fractional scaled displays on Linux (Wayland), making rendering more effective.",
+      "MacOS users now have a dedicated GPU process by default. This includes WebGPU, WebGL, and Enso's own WebRender. With this feature enabled, fatal errors in graphics code will no longer crash the browser, and will instead transparently restart the GPU process."
     ],
     "workflowId": 20138588499,
     "image": false,
@@ -3409,7 +3409,7 @@
       "Fixed minor issues with the update notification being used alongside the media player and improved overflowing space icons feel when hovering."
     ],
     "features": [
-      "Added a preference (`zen.downloads.icon-popup-position`) to control the position of the download icon popup in compact mode."
+      "Added a preference (`enso.downloads.icon-popup-position`) to control the position of the download icon popup in compact mode."
     ],
     "workflowId": 20200279614,
     "image": false,
@@ -3435,7 +3435,7 @@
   },
   {
     "version": "1.18b",
-    "extra": "This update includes window sync and other nice improvements! Window sync is a way to keep your windows organized across multiple monitors. If you want a blank window, you can do so by using opt+cmd+N (for mac), ctrl+alt+N (for linux) and alt+N (for windows). Enjoy!\n\nYou can read more about window sync in our documentation <a href=\"https://docs.zen-browser.app/user-manual/window-sync\">here</a>",
+    "extra": "This update includes window sync and other nice improvements! Window sync is a way to keep your windows organized across multiple monitors. If you want a blank window, you can do so by using opt+cmd+N (for mac), ctrl+alt+N (for linux) and alt+N (for windows). Enjoy!\n\nYou can read more about window sync in our documentation <a href=\"https://docs.enso-browser.app/user-manual/window-sync\">here</a>",
     "fixes": [
       "Improved startup time when restoring large sessions.",
       "Improved rendering for background gradient rendering / mixing when using three color gradients.",
@@ -3449,7 +3449,7 @@
     ],
     "features": [
       "Updated to Firefox 147.0 and 147.0.1",
-      "Merged window syncing! Now, when you open multiple windows of Zen, they will stay in sync with each other. Changes made in one window will automatically reflect in all other open windows. (Experimental, some features such as glance still can't sync yet.)",
+      "Merged window syncing! Now, when you open multiple windows of Enso, they will stay in sync with each other. Changes made in one window will automatically reflect in all other open windows. (Experimental, some features such as glance still can't sync yet.)",
       "Session restore now remembers which space each window was in.",
       "Closing a tab will now focus the last accessed tab instead of the tab to the bottom",
       "Tabs can now have custom icons (set via right-click context menu).",
@@ -3461,7 +3461,7 @@
       "Enabled de-cluttering preference for context menus.",
       "WebGPU support is now enabled for devices with Apple Silicon processors on all supported macOS versions.",
       "Improved video playback performance on systems with AMD GPUs by enabling zero-copy playback for hardware-decoded video where supported, bringing them to parity with Intel and NVIDIA GPUs.",
-      "Zen now supports the Safe Browsing V5 protocol and is migrating from Safe Browsing V4 to the local list mode of Safe Browsing V5 protocol.",
+      "Enso now supports the Safe Browsing V5 protocol and is migrating from Safe Browsing V4 to the local list mode of Safe Browsing V5 protocol.",
       "Added an 'Essentials DnD Promo' card, shown when dragging a tab to the top of the sidebar if there are no essentials."
     ],
     "workflowId": 21283712817,
@@ -3484,7 +3484,7 @@
     "version": "1.18.2b",
     "extra": "",
     "fixes": [
-      "Fixed blank windows when opening Zen for the first time or new windows on some occasions.",
+      "Fixed blank windows when opening Ensofor the first time or new windows on some occasions.",
       "Fixed an issue where essentials would disappear intermittently.",
       "Fixed pinned tabs not restoring to their base URL at startup.",
       "Other minor bug fixes and stability improvements related to window sync and its respective migration system."

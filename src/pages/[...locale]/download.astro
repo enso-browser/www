@@ -32,18 +32,18 @@ const platformDescriptions = download.platformDescriptions
 <DownloadScript />
 
 <Layout title={layout.download.title} description={layout.download.description}>
-  <main class="mt-48 flex flex-col px-6 data-[os='windows']:bg-zen-blue">
+  <main class="mt-48 flex flex-col px-6 data-[os='windows']:bg-enso-blue">
     <div class="container relative mx-auto pb-48">
       <div class="mb-6 flex flex-col gap-4">
         <div class="download-browser-logo mx-auto">
           <Image
             src={AppIconDark}
-            alt="Zen Browser"
+            alt="Enso Browser"
             class="w-32 translate-y-3 transform dark:hidden"
           />
           <Image
             src={AppIconLight}
-            alt="Zen Browser"
+            alt="Enso Browser"
             class="hidden w-32 translate-y-3 transform dark:block"
           />
         </div>
@@ -55,11 +55,11 @@ const platformDescriptions = download.platformDescriptions
         </Description>
         <div
           id="twilight-info"
-          class="mx-auto hidden max-w-xl items-center justify-center gap-3 text-pretty rounded-xl border border-zen-blue/20 bg-zen-blue/5 p-4 text-left text-center data-[twilight='true']:flex"
+          class="mx-auto hidden max-w-xl items-center justify-center gap-3 text-pretty rounded-xl border border-enso-blue/20 bg-enso-blue/5 p-4 text-left text-center data-[twilight='true']:flex"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="mt-0.5 h-5 w-5 flex-shrink-0 text-zen-blue"
+            class="mt-0.5 h-5 w-5 flex-shrink-0 text-enso-blue"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -150,7 +150,7 @@ const platformDescriptions = download.platformDescriptions
 <style is:global>
   /* Download card icon */
   .download-card__icon {
-    @apply flex h-10 w-10 items-center justify-center rounded-full bg-subtle p-2 text-coral data-[twilight='true']:text-zen-blue;
+    @apply flex h-10 w-10 items-center justify-center rounded-full bg-subtle p-2 text-coral data-[twilight='true']:text-enso-blue;
   }
 
   /* Make FontAwesome icons match size */

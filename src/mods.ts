@@ -1,6 +1,6 @@
 import { format } from 'date-fns'
 
-export type ZenTheme = {
+export type EnsoTheme = {
   name: string
   description: string
   image: string
@@ -17,9 +17,9 @@ export type ZenTheme = {
   updatedAt: Date
 }
 
-const THEME_API = 'https://zen-browser.github.io/theme-store/themes.json'
+const THEME_API = 'https://enso-browser.github.io/theme-store/themes.json'
 
-export async function getAllMods(): Promise<ZenTheme[]> {
+export async function getAllMods(): Promise<EnsoTheme[]> {
   try {
     const res = await fetch(THEME_API)
     const json = await res.json()

@@ -1,7 +1,7 @@
 {
   "routes": {
     "index": {
-      "title": "Zenブラウザー",
+      "title": "Ensoブラウザー",
       "hero": {
         "title": [
           { "text": "ようこそ", "highlight": false },
@@ -22,7 +22,7 @@
       },
       "features": {
         "titles": ["生産性", "の", "極み"],
-        "description": "Zenは、生産性と集中力を高める機能が満載です。ブラウザーは作業の妨げではなく、作業を助けるツールであるべきです。",
+        "description": "Ensoは、生産性と集中力を高める機能が満載です。ブラウザーは作業の妨げではなく、作業を助けるツールであるべきです。",
         "featureTabs": {
           "workspaces": {
             "title": "ワークスペース",
@@ -30,7 +30,7 @@
           },
           "compactMode": {
             "title": "コンパクトモード",
-            "description": "Zenのコンパクトモードは、必要ないときにタブバーを隠して画面スペースを広く使い、必要なときに表示します。"
+            "description": "Ensoのコンパクトモードは、必要ないときにタブバーを隠して画面スペースを広く使い、必要なときに表示します。"
           },
           "glance": {
             "title": "Glance",
@@ -44,7 +44,7 @@
       },
       "sponsors": {
         "title": "スポンサー",
-        "description": "ご支援いただいているスポンサーの皆様に感謝します。<br />あなたも<a href=\"/donate\" class=\"zen-link\">直接寄付する</a>ことでこの旅に参加できます！",
+        "description": "ご支援いただいているスポンサーの皆様に感謝します。<br />あなたも<a href=\"/donate\" class=\"enso-link\">直接寄付する</a>ことでこの旅に参加できます！",
         "sponsors": {
           "tuta": {
             "name": "Tuta",
@@ -62,19 +62,19 @@
       },
       "community": {
         "title": ["私たちの", "コア", "バリュー"],
-        "description": "Zenは美しさ、パフォーマンス、プライバシーのバランスを最優先にしています。最高の体験を妥協せずに提供します。",
+        "description": "Ensoは美しさ、パフォーマンス、プライバシーのバランスを最優先にしています。最高の体験を妥協せずに提供します。",
         "lists": {
           "freeAndOpenSource": {
             "title": "無料・オープンソース",
-            "description": "Zenは無料でオープンソース。誰でも自由に使え、カスタマイズできます。"
+            "description": "Ensoは無料でオープンソース。誰でも自由に使え、カスタマイズできます。"
           },
           "simpleYetPowerful": {
             "title": "シンプルでパワフル",
-            "description": "Zenは使いやすく、日常の作業も十分にこなせます。"
+            "description": "Ensoは使いやすく、日常の作業も十分にこなせます。"
           },
           "privateAndAlwaysUpToDate": {
             "title": "プライバシー重視・常に最新",
-            "description": "Zenはプライバシーを守り、常に最新。無料で使え、カスタマイズも可能です。"
+            "description": "Ensoはプライバシーを守り、常に最新。無料で使え、カスタマイズも可能です。"
           }
         },
         "images": {
@@ -85,8 +85,8 @@
       }
     },
     "mods": {
-      "title": "Zen Mods",
-      "description": "Zenブラウザー用の多彩なMod（プラグイン・テーマ）を探そう。気分やニーズに合ったテーマやプラグインで、ブラウザー体験をカスタマイズ！",
+      "title": "Enso Mods",
+      "description": "Ensoブラウザー用の多彩なMod（プラグイン・テーマ）を探そう。気分やニーズに合ったテーマやプラグインで、ブラウザー体験をカスタマイズ！",
       "pagination": {
         "pagination": "{input} / {totalPages}（全{totalItems}件）"
       },
@@ -100,10 +100,10 @@
       "noResults": "結果が見つかりません",
       "noResultsDescription": "別のキーワードで検索するか、後でもう一度お試しください。",
       "slug": {
-        "title": "{name} - Zen Mods",
-        "description": "{name} Modの詳細（Zen用）",
+        "title": "{name} - Enso Mods",
+        "description": "{name} Modの詳細（Enso用）",
         "alert": {
-          "description": "このテーマをインストールするにはZenが必要です。",
+          "description": "このテーマをインストールするにはEnsoが必要です。",
           "button": "今すぐダウンロード！"
         },
         "createdBy": "作者：{author} • <b>v{version}</b>",
@@ -118,7 +118,7 @@
     "releaseNotes": {
       "topSection": {
         "title": "変更履歴",
-        "description": "Zenの最新情報はこちら！<a class=\"zen-link\" href=\"#1.0.0-a.1\">最初のリリース</a>から<a class=\"zen-link\" href=\"#{latestVersion}\">{latestVersion}</a>まで、最高のブラウザーを目指して努力しています。ご意見ありがとうございます！❤️"
+        "description": "Ensoの最新情報はこちら！<a class=\"enso-link\" href=\"#1.0.0-a.1\">最初のリリース</a>から<a class=\"enso-link\" href=\"#{latestVersion}\">{latestVersion}</a>まで、最高のブラウザーを目指して努力しています。ご意見ありがとうございます！❤️"
       },
       "list": {
         "support": "応援してください！",
@@ -144,8 +144,8 @@
           "githubRelease": "GitHubリリース",
           "workflowRun": "ワークフロー実行",
           "compareChanges": "変更を比較",
-          "twilightWarning": "TwilightはZenブラウザーのプレリリース版です。不具合や未完成の機能が含まれる場合があります。",
-          "reportIssues": " 問題が発生した場合は、<a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/zen-browser/desktop/issues/\" class=\"zen-link\">issueページ</a>でご報告ください。",
+          "twilightWarning": "TwilightはEnsoブラウザーのプレリリース版です。不具合や未完成の機能が含まれる場合があります。",
+          "reportIssues": " 問題が発生した場合は、<a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/enso-browser/desktop/issues/\" class=\"enso-link\">issueページ</a>でご報告ください。",
           "learnMore": "詳細はこちら",
           "viewIssue": "GitHubのIssue番号{issue}を見る"
         }
@@ -156,7 +156,7 @@
       }
     },
     "about": {
-      "title": "Zenについて",
+      "title": "Ensoについて",
       "description": "私たちは、ウェブ体験を大切にする開発者とデザイナーの集まりです。インターネットは、データ収集を心配せずに探索・学習・交流できる場所であるべきだと信じています。",
       "littleHelp": "応援しませんか？",
       "mainTeam": {
@@ -250,7 +250,7 @@
       },
       "contributors": {
         "title": "コントリビューター",
-        "description": "Zenの発展に貢献してくださった皆様です。",
+        "description": "Ensoの発展に貢献してくださった皆様です。",
         "browser": "ブラウザー",
         "website": "ウェブサイト"
       }
@@ -270,32 +270,32 @@
       }
     },
     "download": {
-      "title": "Ready to experience Zen?",
-      "description": "お使いのプラットフォーム向けにZenをダウンロード。すべてのダウンロードにはSHA256チェックサムが含まれています",
+      "title": "Ready to experience Enso?",
+      "description": "お使いのプラットフォーム向けにEnsoをダウンロード。すべてのダウンロードにはSHA256チェックサムが含まれています",
       "twilightInfo": "現在Twilightモードです。最新の実験的機能とアップデートをダウンロードしています。",
-      "beta": "Zen is currently in ",
-      "otherDownload": "If your device got wrongly detected, <a href='https://github.com/zen-browser/desktop/releases/latest/' class='zen-link ml-[1px]'>see other downloads</a>.<br />Please report any issues you encounter on <a href='https://github.com/zen-browser/desktop/issues/new/choose' class='zen-link ml-[1px]'>GitHub</a>.",
+      "beta": "Enso is currently in ",
+      "otherDownload": "If your device got wrongly detected, <a href='https://github.com/enso-browser/desktop/releases/latest/' class='enso-link ml-[1px]'>see other downloads</a>.<br />Please report any issues you encounter on <a href='https://github.com/enso-browser/desktop/issues/new/choose' class='enso-link ml-[1px]'>GitHub</a>.",
       "alertInfo": {
         "description": "You're currently in Twilight mode, this means you're downloading the latest experimental features and updates."
       },
       "platformSelector": {
         "title": "プラットフォーム選択",
-        "description": "お使いのプラットフォームを選択してZenをダウンロード。"
+        "description": "お使いのプラットフォームを選択してEnsoをダウンロード。"
       },
       "additionalResources": {
         "title": "追加リソース",
         "sourceCode": {
           "title": "ソースコード",
-          "description": "GitHubでZenのソースコードを閲覧・貢献・ビルドできます。"
+          "description": "GitHubでEnsoのソースコードを閲覧・貢献・ビルドできます。"
         },
         "documentation": {
           "title": "ドキュメント",
-          "description": "Zenの包括的なドキュメント・ガイド・チュートリアル。"
+          "description": "Ensoの包括的なドキュメント・ガイド・チュートリアル。"
         }
       },
       "securityNotice": {
         "title": "検証済み・安全なダウンロード",
-        "description": "すべてのZenダウンロードは署名・検証済みです。公式サイトまたはGitHubからのダウンロードを推奨します。ダウンロードに問題がある場合やウイルス対策で警告が出た場合は、<a href='https://github.com/zen-browser/desktop/issues/new/choose' class='zen-link ml-1'>ご報告ください</a>。"
+        "description": "すべてのEnsoダウンロードは署名・検証済みです。公式サイトまたはGitHubからのダウンロードを推奨します。ダウンロードに問題がある場合やウイルス対策で警告が出た場合は、<a href='https://github.com/enso-browser/desktop/issues/new/choose' class='enso-link ml-1'>ご報告ください</a>。"
       },
       "platformNames": {
         "mac": "macOS",
@@ -333,12 +333,12 @@
       "sections": {
         "introduction": {
           "title": "はじめに",
-          "body": "Zenへようこそ！あなたのプライバシーは最優先です。本ポリシーでは、収集する情報の種類、利用方法、保護手段について説明します。",
+          "body": "Ensoへようこそ！あなたのプライバシーは最優先です。本ポリシーでは、収集する情報の種類、利用方法、保護手段について説明します。",
           "summary": "データ販売なし - データ収集なし - トラッキングなし"
         },
         "noCollect": {
           "title": "1. 収集しない情報",
-          "body": "Zenはプライバシー重視で設計されています。個人データを収集・保存・共有しません。"
+          "body": "Ensoはプライバシー重視で設計されています。個人データを収集・保存・共有しません。"
         },
         "noTelemetry": {
           "title": "1.1. テレメトリーなし",
@@ -355,18 +355,18 @@
         },
         "externalConnections": {
           "title": "1.4. 起動時の外部接続",
-          "body": "Zenは起動時にアップデート確認や接続性・ジオロケーション/プッシュ通知サービスのため外部接続を行う場合があります。これらの接続は機能上必要で、トラッキングやプロファイリング目的ではありません。about:configで無効化可能です。"
+          "body": "Ensoは起動時にアップデート確認や接続性・ジオロケーション/プッシュ通知サービスのため外部接続を行う場合があります。これらの接続は機能上必要で、トラッキングやプロファイリング目的ではありません。about:configで無効化可能です。"
         },
         "localStorage": {
           "title": "2. デバイスに保存される情報"
         },
         "browsingData": {
           "title": "2.1. 閲覧データ",
-          "body": "Zenは体験向上のため、いくつかのデータをローカルに保存します。"
+          "body": "Ensoは体験向上のため、いくつかのデータをローカルに保存します。"
         },
         "cookies": {
           "title": "クッキー",
-          "body": "クッキーはローカルに保存され、Zenや第三者と共有されません。管理はブラウザー設定から可能です。"
+          "body": "クッキーはローカルに保存され、Ensoや第三者と共有されません。管理はブラウザー設定から可能です。"
         },
         "cache": {
           "title": "キャッシュ・一時ファイル",
@@ -378,29 +378,29 @@
         },
         "sync": {
           "title": "3. 同期機能",
-          "body": "ZenはMozilla FirefoxのSync機能を利用しています。データは暗号化されMozillaのサーバーに保存されます。私たちは内容を閲覧できません。",
+          "body": "EnsoはMozilla FirefoxのSync機能を利用しています。データは暗号化されMozillaのサーバーに保存されます。私たちは内容を閲覧できません。",
           "link1": "Mozilla Firefox Sync",
           "link2": "パスワードの保存方法"
         },
         "addons": {
           "title": "4. アドオン・Mod",
-          "body": "MozillaのアドオンやZen Modsをインストール可能です。Zen Modsは当社サービスでホストされ、データ収集はありません。"
+          "body": "MozillaのアドオンやEnso Modsをインストール可能です。Enso Modsは当社サービスでホストされ、データ収集はありません。"
         },
         "security": {
           "title": "5. データセキュリティ",
-          "body": "Zenはデータを収集しませんが、ローカルやMozillaサーバー上のデータ保護に努めています。安全なパスワードやデバイス暗号化、ソフトウェアの定期更新を推奨します。",
+          "body": "Ensoはデータを収集しませんが、ローカルやMozillaサーバー上のデータ保護に努めています。安全なパスワードやデバイス暗号化、ソフトウェアの定期更新を推奨します。",
           "note": "多くのセキュリティ対策はMozilla Firefoxによって提供されています。"
         },
         "control": {
           "title": "6. コントロール",
           "deletionTitle": "6.1. データ削除",
-          "deletionBody": "Zenが保存するすべてのローカルデータは、設定からいつでも削除できます。"
+          "deletionBody": "Ensoが保存するすべてのローカルデータは、設定からいつでも削除できます。"
         },
         "website": {
           "title": "7. ウェブサイト・サービス",
-          "body": "Zenのウェブサイト・サービスはサードパーティの解析やCDNを使用しません。Cloudflareでホストされていますが、解析・トラッキングは無効化されています。",
+          "body": "Ensoのウェブサイト・サービスはサードパーティの解析やCDNを使用しません。Cloudflareでホストされていますが、解析・トラッキングは無効化されています。",
           "externalLinksTitle": "7.1. 外部リンク",
-          "externalLinksBody": "Zenには外部サイトへのリンクが含まれる場合があります。内容やプライバシーについては各サイトのポリシーをご確認ください。"
+          "externalLinksBody": "Ensoには外部サイトへのリンクが含まれる場合があります。内容やプライバシーについては各サイトのポリシーをご確認ください。"
         },
         "changes": {
           "title": "8. ポリシーの変更",
@@ -414,16 +414,16 @@
         },
         "contact": {
           "title": "10. お問い合わせ",
-          "body": "本ポリシーやZenに関するご質問は下記までご連絡ください：",
+          "body": "本ポリシーやEnsoに関するご質問は下記までご連絡ください：",
           "discord": "Discord: ",
-          "discordLink": "ZenのDiscord",
+          "discordLink": "EnsoのDiscord",
           "github": "GitHub: ",
           "githubLink": "Organization"
         }
       }
     },
     "welcome": {
-      "title": ["ようこそ", "Zenへ", "!"]
+      "title": ["ようこそ", "Ensoへ", "!"]
     },
     "whatsNew": {
       "title": "{latestVersion.version}の新機能！",
@@ -439,36 +439,36 @@
   },
   "layout": {
     "index": {
-      "title": "Zenブラウザー",
+      "title": "Ensoブラウザー",
       "description": "美しいデザイン、プライバシー重視、機能満載。"
     },
     "mods": {
-      "title": "Zen Mods",
-      "description": "Zen用の多彩なMod（プラグイン・テーマ）を探そう。気分やニーズに合ったテーマやプラグインで、ブラウザー体験をカスタマイズ！"
+      "title": "Enso Mods",
+      "description": "Enso用の多彩なMod（プラグイン・テーマ）を探そう。気分やニーズに合ったテーマやプラグインで、ブラウザー体験をカスタマイズ！"
     },
     "releaseNotes": {
-      "title": "リリースノート - Zen",
-      "description": "Zenの最新情報はこちら！最初のリリースから{latestVersion}まで、最高のブラウザーを目指して努力しています。ご意見ありがとうございます！❤️"
+      "title": "リリースノート - Enso",
+      "description": "Ensoの最新情報はこちら！最初のリリースから{latestVersion}まで、最高のブラウザーを目指して努力しています。ご意見ありがとうございます！❤️"
     },
     "about": {
-      "title": "Zenについて",
+      "title": "Ensoについて",
       "description": "私たちは、ウェブ体験を大切にする開発者とデザイナーの集まりです。インターネットは、データ収集を心配せずに探索・学習・交流できる場所であるべきだと信じています。"
     },
     "donate": {
-      "title": "寄付 - Zen",
+      "title": "寄付 - Enso",
       "description": "私たちは少人数の開発チームです。ご支援いただけると幸いです。"
     },
     "download": {
-      "title": "Zenをダウンロードする",
-      "description": "お使いのプラットフォーム向けにZenをダウンロード。すべてのダウンロードにはSHA256チェックサムが付属しています。"
+      "title": "Ensoをダウンロードする",
+      "description": "お使いのプラットフォーム向けにEnsoをダウンロード。すべてのダウンロードにはSHA256チェックサムが付属しています。"
     },
     "privacyPolicy": {
-      "title": "プライバシーポリシー - Zen",
+      "title": "プライバシーポリシー - Enso",
       "description": "あなたのプライバシーは最優先です。本ポリシーでは、収集する情報の種類、利用方法、保護手段について説明します。"
     },
     "welcome": {
       "title": "ようこそ！",
-      "description": "Zenへようこそ！"
+      "description": "Ensoへようこそ！"
     },
     "whatsNew": {
       "title": "{latestVersion.version}の新機能！"
@@ -476,7 +476,7 @@
   },
   "components": {
     "footer": {
-      "title": "Zenブラウザー",
+      "title": "Ensoブラウザー",
       "description": "美しいデザイン、プライバシー重視、機能満載。私たちはあなたのデータではなく、体験を大切にします。",
       "download": "ダウンロード",
       "followUs": "フォローする",
@@ -485,7 +485,7 @@
       "privacyPolicy": "プライバシーポリシー",
       "getStarted": "はじめに",
       "documentation": "ドキュメント",
-      "zenMods": "Zen Mods",
+      "ensoMods": "Enso Mods",
       "releaseNotes": "リリースノート",
       "getHelp": "ヘルプ",
       "securtiy": "Security",
@@ -493,10 +493,10 @@
       "uptimeStatus": "稼働状況",
       "reportAnIssue": "問題を報告",
       "twilight": "Twilight",
-      "madeWith": "<span aria-label='love'>❤️</span>と共に<a href='{link}' class='zen-link inline-block font-bold'>Zenチーム</a>が作りました"
+      "madeWith": "<span aria-label='love'>❤️</span>と共に<a href='{link}' class='enso-link inline-block font-bold'>Ensoチーム</a>が作りました"
     },
     "nav": {
-      "brand": "Zenブラウザー",
+      "brand": "Ensoブラウザー",
       "menu": {
         "gettingStarted": "はじめに",
         "usefulLinks": "便利なリンク",
@@ -504,19 +504,19 @@
         "download": "ダウンロード",
         "discord": "Discord",
         "releaseNotes": "リリースノート",
-        "zenMods": "Zen Mods",
-        "tryZenMods": "Zen Modsを試す",
-        "zenModsDesc": "Zen Modsでブラウザー体験をカスタマイズ。",
+        "ensoMods": "Enso Mods",
+        "tryEnsoMods": "Enso Modsを試す",
+        "ensoModsDesc": "Enso Modsでブラウザー体験をカスタマイズ。",
         "releaseNotesDesc": "最新機能・改善情報はこちら。",
-        "discordDesc": "Discordコミュニティで他のZenユーザーと交流！",
+        "discordDesc": "Discordコミュニティで他のEnsoユーザーと交流！",
         "donate": "寄付 ❤️",
-        "donateDesc": "Zen開発を寄付で応援。",
+        "donateDesc": "Enso開発を寄付で応援。",
         "aboutUs": "私たちについて 🌟",
-        "aboutUsDesc": "Zenのチームについて知る。",
+        "aboutUsDesc": "Ensoのチームについて知る。",
         "documentation": "ドキュメント",
-        "documentationDesc": "ドキュメントでZenの使い方を学ぶ。",
+        "documentationDesc": "ドキュメントでEnsoの使い方を学ぶ。",
         "github": "GitHub",
-        "githubDesc": "GitHubでZen開発に貢献。",
+        "githubDesc": "GitHubでEnso開発に貢献。",
         "menu": "メニュー"
       }
     }

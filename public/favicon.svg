@@ -1,13 +1,9 @@
 <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_15_9)">
-<rect width="1024" height="1024" rx="225" fill="#F2F0E3"/>
-<circle cx="512" cy="512" r="340" stroke="#F76F53" stroke-width="70"/>
-<circle cx="512" cy="512" r="224.915" stroke="#F76F53" stroke-width="51"/>
-<circle cx="512" cy="512" r="129.018" stroke="#F76F53" stroke-width="31"/>
-</g>
-<defs>
-<clipPath id="clip0_15_9">
-<rect width="1024" height="1024" fill="white"/>
-</clipPath>
-</defs>
+<rect width="1024" height="1024" rx="225" fill="#1a1a1a"/>
+<path d="M512 172c-187.7 0-340 152.3-340 340s152.3 340 340 340c170.8 0 312-126.1 336.2-290"
+  stroke="#F5F5F5"
+  stroke-width="72"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  fill="none"/>
 </svg>

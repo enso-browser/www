@@ -21,7 +21,7 @@ const { label, href, checksum } = Astro.props
 <div class="relative flex flex-col">
   <a
     href={href}
-    class="download-link group flex flex-1 items-center justify-between rounded-2xl border border-subtle p-4 transition-all duration-200 hover:border-coral hover:shadow-sm data-[twilight='true']:hover:border-zen-blue dark:hover:shadow-md"
+    class="download-link group flex flex-1 items-center justify-between rounded-2xl border border-subtle p-4 transition-all duration-200 hover:border-coral hover:shadow-sm data-[twilight='true']:hover:border-enso-blue dark:hover:shadow-md"
     rel="noopener noreferrer"
     tabindex="0"
   >
@@ -32,7 +32,7 @@ const { label, href, checksum } = Astro.props
           <span class="group/checksum relative hidden items-center md:flex">
             <button
               type="button"
-              class="checksum-icon-btn text-muted-foreground flex items-center justify-center rounded-full p-1 transition-colors duration-150 hover:text-coral focus:outline-none focus:ring-2 focus:ring-coral data-[twilight='true']:hover:text-zen-blue data-[twilight='true']:focus:ring-zen-blue"
+              class="checksum-icon-btn text-muted-foreground flex items-center justify-center rounded-full p-1 transition-colors duration-150 hover:text-coral focus:outline-none focus:ring-2 focus:ring-coral data-[twilight='true']:hover:text-enso-blue data-[twilight='true']:focus:ring-enso-blue"
               aria-label="Show SHA-256 checksum"
               tabindex="0"
             >
@@ -57,7 +57,7 @@ const { label, href, checksum } = Astro.props
               <span class="font-mono flex-1 truncate text-xs">{checksum}</span>
               <button
                 type="button"
-                class="copy-btn rounded bg-coral px-2 py-1 text-xs text-white hover:bg-coral/80 data-[twilight='true']:bg-zen-blue data-[twilight='true']:hover:bg-zen-blue/80"
+                class="copy-btn rounded bg-coral px-2 py-1 text-xs text-white hover:bg-coral/80 data-[twilight='true']:bg-enso-blue data-[twilight='true']:hover:bg-enso-blue/80"
               >
                 {buttonCard.copy}
               </button>
@@ -69,12 +69,12 @@ const { label, href, checksum } = Astro.props
     <div class="flex flex-col items-end gap-2">
       <div class="flex items-center gap-2">
         <span
-          class="release-type-tag rounded-full bg-coral/10 px-2 py-1 text-xs font-medium text-coral transition-colors duration-200 group-hover:bg-coral/20 data-[twilight='true']:bg-zen-blue/10 data-[twilight='true']:text-zen-blue data-[twilight='true']:group-hover:bg-zen-blue/20"
+          class="release-type-tag rounded-full bg-coral/10 px-2 py-1 text-xs font-medium text-coral transition-colors duration-200 group-hover:bg-coral/20 data-[twilight='true']:bg-enso-blue/10 data-[twilight='true']:text-enso-blue data-[twilight='true']:group-hover:bg-enso-blue/20"
         >
           {buttonCard.beta}
         </span>
         <div
-          class="download-arrow-icon text-muted-foreground rounded-xl border border-subtle p-2 transition-colors duration-200 group-hover:border-coral group-hover:text-coral data-[twilight='true']:group-hover:border-zen-blue data-[twilight='true']:group-hover:text-zen-blue"
+          class="download-arrow-icon text-muted-foreground rounded-xl border border-subtle p-2 transition-colors duration-200 group-hover:border-coral group-hover:text-coral data-[twilight='true']:group-hover:border-enso-blue data-[twilight='true']:group-hover:text-enso-blue"
         >
           <svg
             width="16"

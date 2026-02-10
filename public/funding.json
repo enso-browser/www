@@ -4,8 +4,8 @@
     "type": "individual",
     "role": "owner",
     "name": "Mauro",
-    "email": "funding@zen-browser.app",
-    "description": "Im the developer of Zen, a firefox fork with a focus on UI/UX. I am passionate about creating software that makes people's lives easier and more enjoyable.",
+    "email": "funding@enso-browser.app",
+    "description": "Im the developer of Enso, a firefox fork with a focus on UI/UX. I am passionate about creating software that makes people's lives easier and more enjoyable.",
     "webpageUrl": {
       "url": "https://cheff.dev",
       "wellKnown": "https://cheff.dev/.well-known/funding-manifest-urls"
@@ -13,15 +13,15 @@
   },
   "projects": [
     {
-      "guid": "zen-browser",
-      "name": "Zen",
-      "description": "Zen is a beautiful, fast, and productive web browser. Zen is built on the latest Firefox engine, providing speed, privacy, and security while offering our unique features and experience.",
+      "guid": "enso-browser",
+      "name": "Enso",
+      "description": "Enso is a beautiful, fast, and productive web browser. Enso is built on the latest Firefox engine, providing speed, privacy, and security while offering our unique features and experience.",
       "webpageUrl": {
-        "url": "https://zen-browser.app"
+        "url": "https://enso-browser.app"
       },
       "repositoryUrl": {
-        "url": "https://github.com/zen-browser/desktop",
-        "wellKnown": "https://github.com/zen-browser/desktop/blob/dev/.well-known/funding-manifest-urls"
+        "url": "https://github.com/enso-browser/desktop",
+        "wellKnown": "https://github.com/enso-browser/desktop/blob/dev/.well-known/funding-manifest-urls"
       },
       "licenses": ["MPL-2.0"],
       "tags": ["browser", "web", "desktop", "open-source"]
@@ -33,21 +33,21 @@
         "guid": "patreon",
         "name": "Patreon",
         "description": "Patreon is a good place for monthly funding to support ongoing development.",
-        "url": "https://www.patreon.com/zen_browser",
+        "url": "https://www.patreon.com/enso_browser",
         "type": "payment-provider"
       },
       {
         "guid": "ko-fi",
         "name": "Ko-fi",
         "description": "Ko-fi is a platform that allows supporters to make one-time donations to support the project.",
-        "url": "https://ko-fi.com/zen_browser",
+        "url": "https://ko-fi.com/enso_browser",
         "type": "payment-provider"
       },
       {
         "guid": "github-sponsors",
         "name": "GitHub Sponsors",
         "description": "GitHub Sponsors is a platform that allows supporters to make monthly donations to support the project.",
-        "url": "https://github.com/sponsors/zen-browser",
+        "url": "https://github.com/sponsors/enso-browser",
         "type": "payment-provider"
       }
     ],

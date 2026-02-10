@@ -36,13 +36,13 @@ export default {
         '-lg': '@media (max-width: 1023px)',
       },
       colors: {
-        paper: 'var(--zen-paper)',
+        paper: 'var(--enso-paper)',
         coral: '#F76F53',
-        dark: 'var(--zen-dark)',
-        subtle: 'var(--zen-subtle)',
-        muted: 'var(--zen-muted)',
-        'zen-blue': '#6287f5',
-        'zen-green': '#63f78b',
+        dark: 'var(--enso-dark)',
+        subtle: 'var(--enso-subtle)',
+        muted: 'var(--enso-muted)',
+        'enso-blue': '#6287f5',
+        'enso-green': '#63f78b',
       },
       keyframes: {
         fadeIn: {

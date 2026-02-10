@@ -1,0 +1,91 @@
+---
+const { class: className, size = 64 } = Astro.props
+---
+
+<div class:list={['enso-logo-container', className]}>
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 64 64"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      class="enso-stroke"
+      d="M32 10.7c-11.76 0-21.3 9.54-21.3 21.3s9.54 21.3 21.3 21.3c10.7 0 19.54-7.9 21.06-18.16"
+      stroke="currentColor"
+      stroke-width="5.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+      pathLength="100"></path>
+  </svg>
+  <div class="enso-glow"></div>
+</div>
+
+<style>
+  .enso-logo-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .enso-stroke {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: enso-draw 1.8s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+    filter: drop-shadow(0 0 0px currentColor);
+  }
+
+  .enso-logo-container:hover .enso-stroke {
+    animation:
+      enso-draw 1.8s cubic-bezier(0.65, 0, 0.35, 1) forwards,
+      enso-glow-pulse 2s ease-in-out 1.8s infinite;
+  }
+
+  .enso-glow {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    opacity: 0;
+    animation: enso-glow-appear 0.6s ease-out 1.6s forwards;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  @keyframes enso-draw {
+    0% {
+      stroke-dashoffset: 100;
+      stroke-width: 3;
+      filter: drop-shadow(0 0 0px currentColor);
+    }
+    60% {
+      stroke-width: 6;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      stroke-width: 5.5;
+      filter: drop-shadow(0 0 8px currentColor);
+    }
+  }
+
+  @keyframes enso-glow-pulse {
+    0%,
+    100% {
+      filter: drop-shadow(0 0 6px currentColor);
+    }
+    50% {
+      filter: drop-shadow(0 0 14px currentColor);
+    }
+  }
+
+  @keyframes enso-glow-appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+</style>

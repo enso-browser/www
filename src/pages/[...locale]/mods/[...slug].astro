@@ -97,7 +97,7 @@ const {
             set:html={slug.createdBy
               .replace(
                 '{author}',
-                `<a href="${getAuthorLink(mod.author)}" class="zen-link font-bold">${mod.author}</a>`
+                `<a href="${getAuthorLink(mod.author)}" class="enso-link font-bold">${mod.author}</a>`
               )
               .replace('{version}', mod.version)}
           />
@@ -109,20 +109,20 @@ const {
           }
           {
             mod.homepage && (
-              <a href={mod.homepage} target="_blank" rel="noopener noreferrer" class="zen-link">
+              <a href={mod.homepage} target="_blank" rel="noopener noreferrer" class="enso-link">
                 {slug.visitModHomepage}
               </a>
             )
           }
         </div>
         <div class="flex flex-col sm:items-end">
-          <Button class="hidden" id="install-theme" extra={{ 'zen-theme-id': mod.id }} isPrimary>
+          <Button class="hidden" id="install-theme" extra={{ 'enso-theme-id': mod.id }} isPrimary>
             {slug.installMod}
           </Button>
           <Button
             class="hidden"
             id="install-theme-uninstall"
-            extra={{ 'zen-theme-id': mod.id }}
+            extra={{ 'enso-theme-id': mod.id }}
             isPrimary
           >
             {slug.uninstallMod}

@@ -9,7 +9,7 @@ interface Props {
 
 const { title, description, ogImage, isHome, redirect } = Astro.props
 const defaultDescription =
-  'Zen Browser is built for speed, security, and true privacy. Download now to enjoy a beautifully-designed, distraction-free web experience packed with features.'
+  'Enso Browser is built for speed, security, and true privacy. Download now to enjoy a beautifully-designed, distraction-free web experience packed with features.'
 import '@fontsource/bricolage-grotesque/400.css'
 import '@fontsource/bricolage-grotesque/500.css'
 import '@fontsource/bricolage-grotesque/600.css'
@@ -56,8 +56,8 @@ const locale = getLocale(Astro)
             set:html={JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'Zen Browser',
-              url: 'https://zen-browser.app/',
+              name: 'Enso Browser',
+              url: 'https://enso-browser.app/',
             })}
           />
         </>
@@ -83,14 +83,14 @@ const locale = getLocale(Astro)
     <link
       rel="alternate"
       type="application/rss+xml"
-      title="Zen Browser Release Notes"
+      title="Enso Browser Release Notes"
       href={`${Astro.url.origin}/feed.xml`}
     />
 
     <script>
       // eslint-disable-next-line no-console
       console.log(
-        '%c✌️ Zen-Browser%c\nWelcome to a calmer internet!',
+        '%c✌️ Enso-Browser%c\nWelcome to a calmer internet!',
         'filter: invert(1); font-size: 28px; font-weight: bolder; font-family: "Rubik"; margin-top: 20px; margin-bottom: 8px;',
         'color: #f76f53; font-size: 16px; font-family: "Rubik"; margin-bottom: 20px;'
       )
@@ -124,16 +124,16 @@ const locale = getLocale(Astro)
   }
 
   :root {
-    --zen-paper: #f2f0e3;
-    --zen-dark: #2e2e2e;
-    --zen-muted: rgba(0, 0, 0, 0.05);
-    --zen-subtle: rgba(0, 0, 0, 0.05);
+    --enso-paper: #f2f0e3;
+    --enso-dark: #2e2e2e;
+    --enso-muted: rgba(0, 0, 0, 0.05);
+    --enso-subtle: rgba(0, 0, 0, 0.05);
 
     &[data-theme='dark'] {
-      --zen-paper: #1f1f1f;
-      --zen-dark: #d1cfc0;
-      --zen-muted: rgba(255, 255, 255, 0.05);
-      --zen-subtle: rgba(255, 255, 255, 0.1);
+      --enso-paper: #1f1f1f;
+      --enso-dark: #d1cfc0;
+      --enso-muted: rgba(255, 255, 255, 0.05);
+      --enso-subtle: rgba(255, 255, 255, 0.1);
     }
   }
 
@@ -157,7 +157,7 @@ const locale = getLocale(Astro)
     font-style: normal;
   }
 
-  .zen-link {
+  .enso-link {
     @apply text-coral underline underline-offset-4;
   }
 </style>

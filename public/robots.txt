@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /.env/
 
-Sitemap: https://zen-browser.app/sitemap-0.xml
+Sitemap: https://enso-browser.app/sitemap-0.xml

@@ -1,11 +1,11 @@
-# Zen Browser Website
+# Enso Browser Website
 
-Thank you for wanting to contribute to Zen Browser Website. We are thrilled to welcome you to our community. Before you start, please read this document to understand how you can contribute to this project.
+Thank you for wanting to contribute to Enso Browser Website. We are thrilled to welcome you to our community. Before you start, please read this document to understand how you can contribute to this project.
 
 ## How to Contribute
 
-1. Fork the Zen Browser Website repository.
-2. Clone the Zen Browser Website repository to your local machine.
+1. Fork the Enso Browser Website repository.
+2. Clone the Enso Browser Website repository to your local machine.
 
 ```bash
 git clone git@github.com:<YOUR_GITHUB_USERNAME>/www.git # SSH

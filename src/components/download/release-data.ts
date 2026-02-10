@@ -17,41 +17,41 @@ export function getReleasesWithChecksums(locale: string) {
     return {
       macos: {
         universal: {
-          link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.macos-universal.dmg',
+          link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.macos-universal.dmg',
           label: macos.universal,
-          checksum: checksums['zen.macos-universal.dmg'],
+          checksum: checksums['enso.macos-universal.dmg'],
         },
       },
       windows: {
         x86_64: {
-          link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.installer.exe',
+          link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.installer.exe',
           label: windows['64bit'],
-          checksum: checksums['zen.installer.exe'],
+          checksum: checksums['enso.installer.exe'],
         },
         arm64: {
-          link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.installer-arm64.exe',
+          link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.installer-arm64.exe',
           label: windows.ARM64,
-          checksum: checksums['zen.installer-arm64.exe'],
+          checksum: checksums['enso.installer-arm64.exe'],
         },
       },
       linux: {
         x86_64: {
           tarball: {
-            link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.xz',
+            link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.linux-x86_64.tar.xz',
             label: linux.x86_64,
-            checksum: checksums['zen.linux-x86_64.tar.xz'],
+            checksum: checksums['enso.linux-x86_64.tar.xz'],
           },
         },
         aarch64: {
           tarball: {
-            link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-aarch64.tar.xz',
+            link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.linux-aarch64.tar.xz',
             label: linux.aarch64,
-            checksum: checksums['zen.linux-aarch64.tar.xz'],
+            checksum: checksums['enso.linux-aarch64.tar.xz'],
           },
         },
         flathub: {
           all: {
-            link: 'https://flathub.org/apps/app.zen_browser.zen',
+            link: 'https://flathub.org/apps/app.enso_browser.enso',
             label: linux.flathub,
           },
         },
@@ -72,36 +72,36 @@ export function getReleases(locale: string) {
   return {
     macos: {
       universal: {
-        link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.macos-universal.dmg',
+        link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.macos-universal.dmg',
         label: macos.universal,
       },
     },
     windows: {
       x86_64: {
-        link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.installer.exe',
+        link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.installer.exe',
         label: windows['64bit'],
       },
       arm64: {
-        link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.installer-arm64.exe',
+        link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.installer-arm64.exe',
         label: windows.ARM64,
       },
     },
     linux: {
       x86_64: {
         tarball: {
-          link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.xz',
+          link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.linux-x86_64.tar.xz',
           label: linux.x86_64,
         },
       },
       aarch64: {
         tarball: {
-          link: 'https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-aarch64.tar.xz',
+          link: 'https://github.com/enso-browser/desktop/releases/latest/download/enso.linux-aarch64.tar.xz',
           label: linux.aarch64,
         },
       },
       flathub: {
         all: {
-          link: 'https://flathub.org/apps/app.zen_browser.zen',
+          link: 'https://flathub.org/apps/app.enso_browser.enso',
           label: linux.flathub,
         },
       },

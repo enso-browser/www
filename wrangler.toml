@@ -1,4 +1,4 @@
-name = "zenbrowser-www"
+name = "ensobrowser-www"
 pages_build_output_dir = "./dist"
 
 [env]

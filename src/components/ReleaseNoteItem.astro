@@ -32,7 +32,7 @@ const currentReleaseIndex = releaseNotesData.findIndex(
 const prevReleaseNote = releaseNotesData[currentReleaseIndex + 1]
 let compareLink = ''
 if (prevReleaseNote && !isTwilight) {
-  compareLink = `https://github.com/zen-browser/desktop/compare/${prevReleaseNote.version}...${props.version}`
+  compareLink = `https://github.com/enso-browser/desktop/compare/${prevReleaseNote.version}...${props.version}`
 }
 
 const isLatest = currentReleaseIndex === 0
@@ -62,7 +62,7 @@ const generateItems = (items: any, type: string) => {
             ? {
                 link: {
                   text: `Issue #${item.issue}`,
-                  href: `https://github.com/zen-browser/desktop/issues/${item.issue}`,
+                  href: `https://github.com/enso-browser/desktop/issues/${item.issue}`,
                 },
               }
             : {}),
@@ -161,9 +161,9 @@ generateItems(props.knownIssues, 'known')
         <span class="text-muted-foreground mx-3 hidden sm:block">•</span>
         <a
           rel="noopener noreferrer"
-          class="zen-link whitespace-nowrap text-xs !no-underline opacity-80"
+          class="enso-link whitespace-nowrap text-xs !no-underline opacity-80"
           target="_blank"
-          href={`https://github.com/zen-browser/desktop/releases/tag/${isTwilight ? 'twilight' : props.version}`}
+          href={`https://github.com/enso-browser/desktop/releases/tag/${isTwilight ? 'twilight' : props.version}`}
           >{releaseNoteItem.githubRelease}</a
         >
         {
@@ -172,9 +172,9 @@ generateItems(props.knownIssues, 'known')
               <span class="text-muted-foreground mx-3 hidden sm:block">•</span>
               <a
                 rel="noopener noreferrer"
-                class="zen-link whitespace-nowrap text-xs !no-underline opacity-80"
+                class="enso-link whitespace-nowrap text-xs !no-underline opacity-80"
                 target="_blank"
-                href={`https://github.com/zen-browser/desktop/actions/runs/${props.workflowId}`}
+                href={`https://github.com/enso-browser/desktop/actions/runs/${props.workflowId}`}
               >
                 {releaseNoteItem.workflowRun}
               </a>
@@ -187,7 +187,7 @@ generateItems(props.knownIssues, 'known')
               <span class="text-muted-foreground mx-3 hidden sm:block">•</span>
               <a
                 rel="noopener noreferrer"
-                class="zen-link whitespace-nowrap text-xs !no-underline opacity-80"
+                class="enso-link whitespace-nowrap text-xs !no-underline opacity-80"
                 target="_blank"
                 href={compareLink}
               >
@@ -246,7 +246,7 @@ generateItems(props.knownIssues, 'known')
       }
 
       & > svg {
-        color: var(--zen-dark) !important;
+        color: var(--enso-dark) !important;
       }
     }
 

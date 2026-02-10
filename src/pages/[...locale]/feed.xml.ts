@@ -9,7 +9,7 @@ const RSS_ENTRY_LIMIT = 20
 
 /**
  * Handles the GET request for the `feed.xml` endpoint.
- * @returns The RSS feed for the Zen Browser release notes.
+ * @returns The RSS feed for the Enso Browser release notes.
  */
 export function GET(context: { url: URL }) {
   // Just in case the release notes array is empty for whatever reason.
@@ -17,19 +17,19 @@ export function GET(context: { url: URL }) {
     releaseNotes.length > 0 ? formatRssDate(releaseNotes[0].date as string) : new Date()
 
   const rssData: RSSOptions = {
-    title: 'Zen Browser Release Notes',
-    description: 'Release Notes for the Zen Browser',
+    title: 'Enso Browser Release Notes',
+    description: 'Release Notes for the Enso Browser',
     site: context.url,
     items: [],
     customData: `
             <language>en</language>
-            <link>https://www.zen-browser.app/release-notes</link>
-            <copyright>Zen Browser © ${new Date().getFullYear()} - Made with ❤️ by the Zen team.</copyright>
+            <link>https://www.enso-browser.app/release-notes</link>
+            <copyright>Enso Browser © ${new Date().getFullYear()} - Made with ❤️ by the Enso team.</copyright>
             <pubDate>${pubDate(latestDate)}</pubDate>
             <image>
-                <url>https://www.zen-browser.app/favicon.ico</url>
-                <title>Zen Browser</title>
-                <link>https://www.zen-browser.app</link>
+                <url>https://www.enso-browser.app/favicon.ico</url>
+                <title>Enso Browser</title>
+                <link>https://www.enso-browser.app</link>
             </image>
         `,
   }
@@ -37,7 +37,7 @@ export function GET(context: { url: URL }) {
   for (const releaseNote of releaseNotes.slice(0, RSS_ENTRY_LIMIT)) {
     rssData.items.push({
       title: `Release notes for version ${releaseNote.version}`,
-      link: `https://www.zen-browser.app/release-notes/${releaseNote.version}`,
+      link: `https://www.enso-browser.app/release-notes/${releaseNote.version}`,
       pubDate: formatRssDate(releaseNote.date as string),
       description: releaseNote.extra,
       content: formatReleaseNote(releaseNote),
@@ -73,7 +73,7 @@ function formatRssDate(dateStr: string) {
  */
 function formatReleaseNote(releaseNote: ReleaseNote) {
   let content = `<p>
-        If you encounter any issues, please report them on <a href="https://github.com/zen-browser/desktop/issues/">the issues page</a>.
+        If you encounter any issues, please report them on <a href="https://github.com/enso-browser/desktop/issues/">the issues page</a>.
         Thanks everyone for your feedback! ❤️
     </p>`
 
@@ -119,7 +119,7 @@ function fixToReleaseNote(fix?: Exclude<ReleaseNote['fixes'], undefined>[number]
 
   let note = fix.description
   if (fix.issue) {
-    note += ` (<a href="https://github.com/zen-browser/desktop/issues/${fix.issue}" target="_blank">#${fix.issue}</a>)`
+    note += ` (<a href="https://github.com/enso-browser/desktop/issues/${fix.issue}" target="_blank">#${fix.issue}</a>)`
   }
   return note
 }
